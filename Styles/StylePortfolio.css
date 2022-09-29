@@ -1,14 +1,32 @@
-body{
-    background-color: rgb(11, 12, 17);
-    background-image: url("/Resources/BgImage.jpg");
-    background-position:center top;
-    background-repeat: no-repeat;
-}
 *{
     padding: 0;
     margin: 0;
     color: white;
 }
-.intro{
-    height: 300vh;
+
+body{
+    background-color: rgb(0, 0, 0);
+    /* 11 12 17 */
+    background-image: url("/Resources/BackgroundImage.webp");
+    background-position: center top;
+}
+
+nav{
+    width: 100vw;
+    height: 7vh;
+    position: fixed;
+    border: 1px solid black;
+}
+
+#name{
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+}
+
+#Home{
+    padding-top: 7vh;
 }
