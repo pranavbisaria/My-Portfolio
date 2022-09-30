@@ -53,6 +53,12 @@ li{
     border: 2px solid black;
     border-radius: 2vw;
 }
+.projectimg{
+    width: 18vw;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 2vw;
+}
 
 #About{
     padding-top: 10vh;
@@ -64,37 +70,44 @@ li{
 
 #Projects{
     padding-top: 10vh;
-    height: 100vh;
     width: 100vw;
     background-color: white;
-    color: white;
+    color: black;
 }
 
 .pro{
-    width: 18vw;
-    margin: 1vh 4vw;
-    border: 4px solid black;
-    border-radius: 1vw;
+    width: 20vw;
+    display: inline-block;
+    margin: 1vh 3vw 1vh 0;
+    border: 2px solid Black;
+    border-radius: 8px;
+    /* border-radius: 1vw; */
 }
 
 #Skills{
     background-image: url("/Resources/BackgroundStatic.jpg");
     background-position: center top;
     background-size: cover;
-    padding-top: 10vh;
+    padding: 10vh;
     background-size: 100vh 100vw;
     color: white;
     width: 100vw;
-    height: 100vh;
 }
 
 #Achievements{
     padding-top: 10vh;
-    background-color: white;
+    background-image: url(/Resources/Achievements.jpg);
     background-size: 10vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 footer{
     background-color: white;
     background-size: 100vh 100vw;   
+}
+
+#Contacts{
+    height: 10vh;
+    background-color: #fff;
 }
