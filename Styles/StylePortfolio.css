@@ -19,7 +19,7 @@ nav{
     letter-spacing: 1px;
 }
 #im{
-    padding-right: 55vw;
+    padding-right: 50vw;
 }
 #hi{
     font-size: 13vw;
@@ -48,13 +48,13 @@ li{
     border-radius: 22vh;
 }
 .skillimg{
-    width: 18vw;
-    margin: 1vh 4vw;
+    width: 300px;
+    margin: 1vh 0;
     border: 2px solid black;
     border-radius: 2vw;
 }
 .projectimg{
-    width: 18vw;
+    width: 278px;
     margin: 0;
     border: 2px solid black;
     border-radius: 2vw;
@@ -64,7 +64,6 @@ li{
     padding-top: 10vh;
     background-size: 100vh 100vw;
     background-color: white;
-    height: 100vh;
     width: 100vw;
 }
 
@@ -76,8 +75,9 @@ li{
 }
 
 .pro{
-    width: 20vw;
-    display: inline-block;
+    padding: 5px;
+    width: 296px;
+    height: 513px;
     margin: 1vh 3vw 1vh 0;
     border: 2px solid Black;
     border-radius: 8px;
@@ -88,7 +88,7 @@ li{
     background-image: url("/Resources/BackgroundStatic.jpg");
     background-position: center top;
     background-size: cover;
-    padding: 10vh;
+    padding-top: 10vh;
     background-size: 100vh 100vw;
     color: white;
     width: 100vw;
@@ -100,6 +100,15 @@ li{
     background-size: 10vh;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.Achieveimg{
+    margin: 8vw;
+    width: 18vw;
+    margin: 0;
+    height: 80vh;
+    border: 2px solid black;
+    border-radius: 2vw;
 }
 
 footer{
