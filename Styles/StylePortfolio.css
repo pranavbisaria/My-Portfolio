@@ -70,6 +70,13 @@ li{
     color: white;
 }
 
+.pro{
+    width: 18vw;
+    margin: 1vh 4vw;
+    border: 4px solid black;
+    border-radius: 1vw;
+}
+
 #Skills{
     background-image: url("/Resources/BackgroundStatic.jpg");
     background-position: center top;
@@ -85,11 +92,9 @@ li{
     padding-top: 10vh;
     background-color: white;
     background-size: 10vh;
-    
 }
 
 footer{
     background-color: white;
-    background-size: 100vh 100vw;
-    
+    background-size: 100vh 100vw;   
 }
