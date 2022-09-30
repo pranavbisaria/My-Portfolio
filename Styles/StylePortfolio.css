@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Noto Sans Devanagari', sans-serif;
     box-sizing: border-box;
 }
 
@@ -8,21 +10,28 @@ body{
     background-color: #fff;
 }
 
+main{
+    margin-top: auto;
+}
+
 nav{
     padding: 3vh 0;
     width: 100vw;
-    height: 10vh;
     position: fixed;
     transition: background-color .3s ease 0s;
     color: #000;
     background-color: white;
     letter-spacing: 1px;
 }
+
 #im{
-    padding-right: 50vw;
+    padding-right: 30vw;
 }
+
 #hi{
-    font-size: 13vw;
+    font-size: 10rem;
+    font-weight: 900;
+    font-family: cursive;
 }
 
 li{
@@ -30,16 +39,20 @@ li{
     padding: 1vw;
     color: black;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 #Home{
-    padding-top: 35vh;
-    font-size: 20px;
+    padding-left: 3vw;
+    font-size: 2rem;
+    padding-top: 21vh;
+    padding-bottom: 21vh;
+    min-height: 100vh;
     color: white;
     background-image: url("/Resources/BackgroundImage.webp");
     background-size: 100vh 100vw;
     width: 100vw;
-    height: 100vh;
 }
 
 #Profile{
@@ -64,13 +77,19 @@ li{
     padding-top: 10vh;
     background-size: 100vh 100vw;
     background-color: white;
+    min-height: 100vh;
     width: 100vw;
+}
+
+.bold{
+    font-weight: 700;
 }
 
 #Projects{
     padding-top: 10vh;
     width: 100vw;
     background-color: white;
+    min-height: 100vh;
     color: black;
 }
 
@@ -81,7 +100,6 @@ li{
     margin: 1vh 3vw 1vh 0;
     border: 2px solid Black;
     border-radius: 8px;
-    /* border-radius: 1vw; */
 }
 
 #Skills{
@@ -91,6 +109,7 @@ li{
     padding-top: 10vh;
     background-size: 100vh 100vw;
     color: white;
+    min-height: 100vh;
     width: 100vw;
 }
 
@@ -99,6 +118,7 @@ li{
     background-image: url(/Resources/Achievements.jpg);
     background-size: 10vh;
     background-size: cover;
+    min-height: 100vh;
     background-repeat: no-repeat;
 }
 
@@ -117,6 +137,12 @@ footer{
 }
 
 #Contacts{
-    height: 10vh;
-    background-color: #fff;
+    padding: 10vh 0;
+    background-image: url("/Resources/BackgroundImage.webp");
+    min-height: 10vh;
+    color: white;
+}
+
+.center{
+    text-align: center;
 }
