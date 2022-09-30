@@ -4,14 +4,7 @@
     font-family: 'Dancing Script', cursive;
     font-family: 'Noto Sans Devanagari', sans-serif;
     box-sizing: border-box;
-}
-
-body{
-    background-color: #fff;
-}
-
-main{
-    margin-top: auto;
+    max-width: 100vw;
 }
 
 nav{
@@ -23,10 +16,6 @@ nav{
     background-color: white;
     letter-spacing: 1px;
 }
-
-/* #im{
-    padding-right: 30vw;
-} */
 
 #hi{
     font-size: 15vw;
@@ -45,7 +34,7 @@ li{
 
 #Home{
     display: flex;
-    padding-left: 3vw;
+    padding-left: 1vw;
     font-size: 4vw ;
     padding-top: 16vh;
     position: center right;
@@ -55,20 +44,27 @@ li{
     background-image: url("/Resources/BackgroundImage.webp");
     background-size: 100vh 100vw;
     width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #Profile{
-    width: 44vh;
+    width: 50vh;
     border: 2px solid black;
-    border-radius: 22vh;
+    border-radius: 25vh;
+    max-width: 92vw;
 
 }
 
 .skillimg{
     width: 300px;
-    margin: 1vh 0;
+    margin: 2vw;
     border: 2px solid black;
     border-radius: 2vw;
+}
+.lfont{
+    font-size: 60px;
 }
 .projectimg{
     width: 278px;
@@ -91,13 +87,14 @@ li{
 .AboutText{
     margin: 3vw;
     width: 50vw;
+    font-size: 20px;
 }
 .bold{
     font-weight: 700;
 }
 
 #Projects{
-    padding-top: 10vh;
+    padding: 15vh 4px 4px 0;
     width: 100vw;
     background-color: white;
     min-height: 100vh;
@@ -108,7 +105,8 @@ li{
     padding: 5px;
     width: 296px;
     height: 513px;
-    margin: 1vh 3vw 1vh 0;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
     border: 2px solid Black;
     border-radius: 8px;
 }
@@ -117,7 +115,7 @@ li{
     background-image: url("/Resources/BackgroundStatic.jpg");
     background-position: center top;
     background-size: cover;
-    padding-top: 10vh;
+    padding-top: 15vh;
     background-size: 100vh 100vw;
     color: white;
     min-height: 100vh;
@@ -134,12 +132,11 @@ li{
 }
 
 .Achieveimg{
-    margin: 8vw;
-    width: 18vw;
-    margin: 0;
-    height: 80vh;
+    width: 328px;
+    height: 480px;
     border: 2px solid black;
     border-radius: 2vw;
+    margin: 37px;
 }
 
 footer{
@@ -156,7 +153,7 @@ footer{
 .flexd{
     display: flex;
     flex-wrap: wrap;
-    justify-content: right center;
+    justify-content:space-evenly;
 }
 
 .center{
