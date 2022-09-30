@@ -24,12 +24,12 @@ nav{
     letter-spacing: 1px;
 }
 
-#im{
+/* #im{
     padding-right: 30vw;
-}
+} */
 
 #hi{
-    font-size: 10rem;
+    font-size: 15vw;
     font-weight: 900;
     font-family: cursive;
 }
@@ -40,14 +40,16 @@ li{
     color: black;
     text-decoration: none;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 2.3vw;
 }
 
 #Home{
+    display: flex;
     padding-left: 3vw;
-    font-size: 2rem;
-    padding-top: 21vh;
-    padding-bottom: 21vh;
+    font-size: 4vw ;
+    padding-top: 16vh;
+    position: center right;
+    padding-bottom: 16vh;
     min-height: 100vh;
     color: white;
     background-image: url("/Resources/BackgroundImage.webp");
@@ -59,7 +61,9 @@ li{
     width: 44vh;
     border: 2px solid black;
     border-radius: 22vh;
+
 }
+
 .skillimg{
     width: 300px;
     margin: 1vh 0;
@@ -72,15 +76,22 @@ li{
     border: 2px solid black;
     border-radius: 2vw;
 }
-
+#Aboutcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 #About{
-    padding-top: 10vh;
+    padding-top: 15vh;
     background-size: 100vh 100vw;
     background-color: white;
-    min-height: 100vh;
+    min-height:100vh;
     width: 100vw;
 }
-
+.AboutText{
+    margin: 3vw;
+    width: 50vw;
+}
 .bold{
     font-weight: 700;
 }
@@ -141,6 +152,11 @@ footer{
     background-image: url("/Resources/BackgroundImage.webp");
     min-height: 10vh;
     color: white;
+}
+.flexd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right center;
 }
 
 .center{
