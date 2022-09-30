@@ -74,9 +74,6 @@ li{
 .skillimg:hover{
     transform: translateY(-10px);
 }
-.lfont{
-    font-size: 60px;
-}
 .projectimg{
     width: 278px;
     margin: 0;
@@ -138,7 +135,7 @@ li{
 }
 
 #Achievements{
-    padding-top: 10vh;
+    padding-top: 15vh;
     background-image: url(/Resources/Achievements.jpg);
     background-size: 10vh;
     background-size: cover;
@@ -177,4 +174,9 @@ footer{
 
 .center{
     text-align: center;
+}
+
+.lfont{
+    font-size: 46px;
+    text-decoration: underline;
 }
