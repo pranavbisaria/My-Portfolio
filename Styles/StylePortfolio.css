@@ -1,17 +1,22 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Dancing Script', cursive;
     font-family: 'Noto Sans Devanagari', sans-serif;
     box-sizing: border-box;
-    max-width: 100vw;
+    max-width: 99vw;
+    overflow-x: hidden;
     z-index: 1;
 }
 
 html{
     scroll-behavior: smooth;
 }
-
+ul{
+    overflow: hidden;
+}
+ul.flexd{
+    overflow: hidden;
+}
 nav{
     padding: 3vh 0;
     width: 100vw;
@@ -24,7 +29,7 @@ nav{
 }
 
 #hi{
-    font-size: 15vw;
+    font-size: 8vw;
     font-weight: 900;
     font-family: cursive;
 }
@@ -35,23 +40,19 @@ li{
     color: black;
     text-decoration: none;
     font-weight: 700;
-    font-size: 2.3vw;
+    font-size: 2.1vw;
 }
 
 #Home{
     display: flex;
-    padding-left: 1vw;
-    font-size: 4vw ;
-    padding-top: 16vh;
-    position: center right;
-    padding-bottom: 16vh;
+    font-size: 3vw ;
     min-height: 100vh;
+    padding-left: 10vh;
+    padding-top: 5vh;
     color: white;
-    background-image: url("https://pranavbisaria.github.io/My-Portfolio/Resources/BackgroundImage.webp");
-    background-size: 100vh 100vw;
+    background-image: url("/Resources/BackgroundImage.webp");
+    background-size: 100vh;
     width: 100vw;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
 }
 
@@ -115,16 +116,20 @@ li{
 
 .pro{
     padding: 5px;
+    padding-top:15px;
     width: 296px;
-    height: 513px;
+    height: 440px;
     margin-top: 6vh;
     margin-bottom: 6vh;
     border: 2px solid Black;
     border-radius: 8px;
+    font-size: 13px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #Skills{
-    background-image: url("https://pranavbisaria.github.io/My-Portfolio/Resources/BackgroundStatic.jpg");
+    background-image: url("/Resources/BackgroundStatic.jpg");
     background-position: center top;
     background-size: cover;
     padding-top: 15vh;
@@ -136,7 +141,7 @@ li{
 
 #Achievements{
     padding-top: 15vh;
-    background-image: url("https://pranavbisaria.github.io/My-Portfolio/Resources/Achievements.jpg");
+    background-image: url("/Resources/Achievements.jpg");
     background-size: 10vh;
     background-size: cover;
     min-height: 100vh;
@@ -162,7 +167,8 @@ footer{
 
 #Contacts{
     padding: 10vh 0;
-    background-image: url("https://pranavbisaria.github.io/My-Portfolio/Resources/BackgroundImage.webp");
+    background-image: url("/Resources/BackgroundImage.webp");
+    background-size: 100vh;
     min-height: 10vh;
     color: white;
 }
